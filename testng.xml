@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestsSelenide" parallel="false">
+    <test name="createIssue">
+        <classes>
+            <class name="CreateIssueTest">
+            </class>
+        </classes>
+    </test>
+    <test name="unsuccessfulLoginTest">
+        <classes>
+            <class name="LoginTest">
+            </class>
+        </classes>
+    </test>
+    <test name="successfulLoginTest">
+        <classes>
+            <class name="LoginTest">
+            </class>
+        </classes>
+    </test>
+</suite>
