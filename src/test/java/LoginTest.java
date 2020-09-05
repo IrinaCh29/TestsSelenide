@@ -23,10 +23,10 @@ public class LoginTest {
   @DataProvider(name = "loginNegative")
   public Object[][] createData1() {
     return new Object[][]{
-        {"SomeName", "IrinaChub", "Извините, имя пользователя или пароль неверны - пожалуйста, попробуйте еще раз."},
-        {"IrinaChub", "SomePassword", "Извините, имя пользователя или пароль неверны - пожалуйста, попробуйте еще раз."},
-//        {"SomeName", "IrinaChub", "Sorry, your username and password are incorrect - please try again."},
-//        {"IrinaChub", "SomePassword", "Sorry, your username and password are incorrect - please try again."},
+//        {"SomeName", "IrinaChub", "Извините, имя пользователя или пароль неверны - пожалуйста, попробуйте еще раз."},
+//        {"IrinaChub", "SomePassword", "Извините, имя пользователя или пароль неверны - пожалуйста, попробуйте еще раз."},
+        {"SomeName", "IrinaChub", "Sorry, your username and password are incorrect - please try again."},
+        {"IrinaChub", "SomePassword", "Sorry, your username and password are incorrect - please try again."},
     };
   }
 
